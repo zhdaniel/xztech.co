@@ -2,7 +2,7 @@
 title: Build PHP environment on Windows manually
 date: 2017-08-14 00:28:31
 tags:
-    - PHP
+    - php
 ---
 
 ### 环境需求
@@ -16,6 +16,8 @@ tags:
 3. 将`my.ini`修改
 4. 进入`bin`目录，执行`mysqld --install MySQL --defaults-file="D:\Tools\mariadb-10.1.9-winx64\my.ini"`
 5. 至此MySQL已安装完成，若有错误可以`WIN + R eventvwr`查看详情
+
+<!-- more -->
 
 ### 安装PHP
 1. 下载32或者64的[PHP]，由于本环境使用Apache所以下载的选择线程安全的版本，若使用IIS则选择非线程安全的版本

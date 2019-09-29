@@ -2,8 +2,8 @@
 title: C#字符串Split方法分析
 date: 2017-08-14 00:14:15
 tags:
-    - .NET
-    - C#
+    - .net
+    - c#
 ---
 
 参考了C#源代码中String.Split的实现。

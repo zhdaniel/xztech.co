@@ -2,7 +2,7 @@
 title: ASP.NET Boilerplate v0.2.0.0 分析
 date: 2017-08-14 00:26:14
 tags:
-    - .NET
+    - .net
 ---
 
 `AbpWebApplication`派生`HttpApplication`，成为应用入口。该类包含唯一属性：
@@ -26,6 +26,8 @@ protected virtual void Application_Start(object sender, EventArgs e)
     AbpBootstrapper.Initialize();
 }
 ```
+
+<!-- more -->
 
 ### 关闭
 
