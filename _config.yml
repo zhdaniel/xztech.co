@@ -75,6 +75,9 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
+disqus_enabled: true
+disqus_shortname: xztech
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
